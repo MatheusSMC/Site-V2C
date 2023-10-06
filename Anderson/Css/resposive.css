@@ -1,0 +1,41 @@
+/* Celulares 
+@media only screen and (max-width: 320px) {
+    
+    html {
+        display: block;
+        justify-content: center;
+        max-width: 320px;
+        
+        
+    }
+    
+    .menu img {
+        
+    }
+    
+    
+
+    .conteudo {
+        display: block;
+        justify-content: center;
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+*/
+
+
+/* Tablets */
+@media (max-width: 720px) {
+
+}
+
+/* Computadores e Notebooks */
+@media (max-width: 1024px) {
+    
+}
+
+/* Computadores grandes */
+@media (max-width: 1366px) {
+    
+}

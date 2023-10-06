@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow-regular.ttf) format("truetype");
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1520px;
+    margin: 0 auto;''
+    
+}
+
+.conteudo {
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.menu .img_logo {
+    width: 20%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+
+
+.menu a img {
+    width: 100%; 
+}
+
+.menu a {
+    font-family: barlow, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 35px;
+    font-size: 22px;
+}
+
+.banner img {
+    width: 100%;
+    
+}
+
+body {
+    font-family: barlow, sans-serif;
+    
+}
+
+.produtos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    
+}
+
+.produtos h1 {
+    color:black;
+}
+
+.produtos img {
+    width: 500px;
+    padding-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;   
+}
+
+.produtos #first {
+    padding-left: 180px;
+}
+
+.produtos #second {
+    padding-left: 180px;
+}
+
+.servicos {
+    background-color: black;
+    width: 1520px;
+    height: 800px;
+    padding-left: 60px;
+}
+
+.servicos img {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    height: 550px;
+   
+}
+
+h1 {
+    color: orangered;
+    width: 1400px;
+    height: 150px;
+    font-size: 60px;
+    display: grid;
+    place-items: center
+}
+
+#sobre {
+    display: flex;
+    width: 45%;
+}
+
+#sobre_img {
+    width: 45%;
+}
+
+#sobre_textos {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#sobre_textos p {
+    width: 45%;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 480px;
+}
+
+#sobre_textos h1 {
+    margin-left: 120px;
+    font-size: 90px;
+}
+
+#sobre_img2 {
+    margin-top: 30px;
+    display: grid;
+    margin-left: 480px;
+
+}
+
+.contato {
+    width: 1520px;
+    height: 580px;
+    font-size: 26px;
+    background-color: #eceae6;
+}
+
+.contato .tag {
+    display: flex;
+    padding-left: 125px;
+}
+
+.contato p {
+    margin-right: 490px;
+    color: gray;
+}
+
+.contato .dados {
+    display: flex;
+    padding-left: 120px;
+}
+
+.contato input {
+    width: 500px;
+    height: 42px;
+   border-radius: 10px;
+   margin-right: 100px;
+   margin-bottom: 25px;
+}
+
+.contato .tag2 {
+    margin-left: 125px;
+}
+
+.contato #maior {
+    width: 1100px;
+    height: 150px;
+    margin-left: 125px;
+}
+
+.contato .enviar input {
+    width: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f34f3c;
+    border-color: #f34f3c;
+    border-width: 2,5px;
+    margin-left: 125px;
+    
+}
+
+.informacoes {
+    background-color: #f34f3c;
+    width: 1520px;
+    height: 400px;
+    font-size: 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.informacoes ul li{
+    list-style-type: none;
+    padding-top: 15px;
+    padding-right: 140px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+}
+
+.informacoes ul .endereco {
+    list-style-image: url(./Icones/V2C_LayoutSite2-21.png);
+    list-style-position: inside;
+    align-content: center;
+}
+
+.informacoes ul .numero {
+    list-style-image: url(./Icones/V2C_LayoutSite2-18.png);
+    list-style-position: inside;
+}
+
+.informacoes ul .email {
+    list-style-image: url(./Icones/V2C_LayoutSite2-22.png);
+    list-style-position: inside;
+}
+
+.informacoes ul .insta {
+    list-style-image: url(./Icones/V2C_LayoutSite2-20.png);
+    list-style-position: inside;
+}
+
+.informacoes ul .linkedin {
+    list-style-image: url(./Icones/V2C_LayoutSite2-19.png);
+    list-style-position: inside;
+}
+
+.informacoes img {
+    margin-left: 110px;
+}
+
+.fim {
+    background-color: #333333;
+    width: 1520px;
+    height: 30px;
+    color: white;
+    display: grid;
+    place-items: center
+}
+
+@media only screen and (max-width: 320px) {
+    
+    header {
+        display: block;
+        justify-content: center;
+        max-width: 320px;
+        
+        
+    }
+    
+    .menu img {
+        
+    }
+    
+    
+
+    .conteudo {
+        display: block;
+        justify-content: center;
+        max-width: 320px;
+    }
+}
